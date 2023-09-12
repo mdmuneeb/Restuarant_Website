@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans:wght@400;700&family=Oswald&family=Playfair:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+
+.navbar {
+    background-color: black;
+    padding-bottom: 550px;
+}
+
+.logo {
+    position: absolute;
+    width: 110px;
+    left: 705px;
+    border: 1px solid white;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+#ph {
+    color: white;
+    background-color: orange;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+#phone-logo {
+    color: white !important;
+}
+
+#cart-logo {
+    cursor: pointer;
+    margin: 15px;
+    height: 35px;
+}
+
+#imageA {
+    background-image: url("imageA.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 98.9vw;
+    background-position: center center;
+    overflow: hidden;
+    position: absolute;
+    top: 70px;
+    left: 0;
+}
+
+.transitionimageA {
+    animation: slideImageA 10s infinite;
+    animation-delay: 0s;
+}
+
+
+#imageB {
+    background-image: url("imageB.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 98.9vw;
+    background-position: center;
+    overflow: hidden;
+    animation: slideImageB 10s infinite;
+    animation-delay: 10s;
+    position: absolute;
+    top: 70px;
+    left: 0;
+}
+
+.nav2 {
+    display: flex;
+    gap: 70px;
+    background-color: black;
+    color: white;
+    padding-left: 150px;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    position: sticky;
+    top: 0;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.first {
+    background-color: #ECECEC;
+    padding-left: 30px;
+
+}
+
+input {
+    width: 72vw;
+    background-color: #ccc;
+    border: none;
+    height: 6vh;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding-left: 60px;
+    font-size: 15px;
+}
+
+#search {
+    position: relative;
+    top: 62px;
+    left: 20px;
+}
+
+.image1 {
+    margin-top: 5px;
+    width: 72vw;
+    border-radius: 10px;
+}
+
+#image {
+    width: 72vw;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+.discp1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+    background-color: white;
+    width: 335px;
+    margin: 20px;
+    border-radius: 10px;
+    height: 500px;
+    padding: 20px;
+    margin-left: 2px;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 12px;
+    line-height: 20px;
+}
+
+#space {
+    padding-bottom: 30px;
+}
+
+#ione,
+#itwo {
+    width: 100%;
+    padding: 5px;
+}
+
+#details button {
+    margin-top: 5px;
+    color: white;
+    background-color: orange;
+    border: none;
+    height: 4vh;
+    border-radius: 40px;
+    width: 17vw;
+}
+
+.discp2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.b_one {
+    background-color: white;
+    width: 530px;
+    margin: 8px;
+    border-radius: 30px;
+    height: 160px;
+    margin-left: 2px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+    line-height: 24px;
+}
+
+#b_1 {
+    height: 130px;
+    border-radius: 30px;
+}
+
+#gap {
+    padding-bottom: 30px;
+}
+
+#gap2 {
+    padding-bottom: 10px;
+}
+
+#line {
+    line-height: 30px;
+}
+
+.b_one button {
+    color: white;
+    background-color: orange;
+    border: none;
+    width: 30px;
+    height: 25px;
+    font-size: 25px;
+}
+
+.para {
+    display: flex;
+    margin-left: 7%;
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+
+.footer {
+    text-align: center;
+    padding: 5%;
+    color: white;
+    background-color: black;
+}
+.final{
+    position: sticky;
+    top: 400px;
+    margin-left: 60px;
+    text-align: center;
+
+}
+.second img{
+    height: 150px;
+    width: 100px;
+    
+}
